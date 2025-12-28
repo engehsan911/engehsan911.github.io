@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Ehsan Zaid</title>
     <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Ehsan Zaid is an aspiring full-stack web developer and ICT Engineering student based in Erbil, Iraq."
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
   </head>
+
   <body class="is-preload">
-    <!-- Wrapper-->
     <div id="wrapper">
-      <!-- Nav -->
-      <nav id="nav">
-        <a href="#" class="icon solid fa-home"><span>Home</span></a>
-        <a href="#Profile" class="icon solid fa-user"><span>Profile</span></a>
+      <!-- Navigation -->
+      <nav id="nav" aria-label="Main Navigation">
+        <a href="#home" class="icon solid fa-home"><span>Home</span></a>
+        <a href="#profile" class="icon solid fa-user"><span>Profile</span></a>
         <a href="#contact" class="icon solid fa-envelope"
           ><span>Contact</span></a
         >
@@ -26,149 +30,160 @@
           href="https://www.linkedin.com/in/ehsan-zaid-b4a5b633b/"
           class="icon brands fa-linkedin"
           target="_blank"
-          ><span>LinkedIn</span></a
+          rel="noopener"
         >
+          <span>LinkedIn</span>
+        </a>
+        <a
+          href="https://github.com/engehsan911"
+          class="icon brands fa-github"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>GitHub</span>
+        </a>
       </nav>
 
-      <!-- Main -->
-      <div id="main">
-        <!-- Me -->
+      <!-- Main Content -->
+      <main id="main">
+        <!-- Home -->
         <article id="home" class="panel intro">
           <header>
-            <h1 style="text-align: center">Ehsan Zaid</h1>
-            <p style="color: #454545; text-align: center">Web Developer</p>
+            <h1>Ehsan Zaid</h1>
+            <p>Aspiring Full-Stack Web Developer</p>
           </header>
-          <a href="#Profile" class="jumplink pic">
-            <span class="arrow icon solid fa-chevron-right"
-              ><span>My Profile</span></span
-            >
-            <img src="images/me.jpg" alt="" />
+
+          <a href="#profile" class="jumplink pic">
+            <span class="arrow icon solid fa-chevron-right">
+              <span>View Profile</span>
+            </span>
+            <img src="images/me.jpg" alt="Portrait of Ehsan Zaid" />
           </a>
         </article>
 
         <!-- Profile -->
-        <article id="Profile" class="panel">
-          <!-- Education Section -->
-          <section id="Education">
+        <article id="profile" class="panel">
+          <!-- Education -->
+          <section id="education">
             <header>
-              <h2 class="icon solid fa-graduation-cap"> - Education</h2>
+              <h2 class="icon solid fa-graduation-cap">  Education</h2>
             </header>
             <p>
               I am currently pursuing a degree in Information and Communication
               Technology Engineering at Erbil Polytechnic University. Alongside
-              my studies, I work as a order management agent at Lezzoo, where I
-              handle various operational tasks. I have a strong passion for web
-              development and programming. I am highly motivated to continuously
-              expand my technical knowledge and enhance my development skills.
+              my studies, I work in operations and support roles while actively
+              developing my skills in web development and programming. I am
+              highly motivated to continuously improve my technical abilities
+              and grow as a full-stack developer.
             </p>
           </section>
 
-          <!-- Experience Section -->
-          <section id="Experience">
+          <!-- Experience -->
+          <section id="experience">
             <header>
-              <h2 class="icon solid fa-briefcase"> - Work Experience</h2>
+              <h2 class="icon solid fa-briefcase">  Work Experience</h2>
             </header>
 
-            <div class="job">
+            <article class="job">
               <h3>Cashier</h3>
-              <span class="job-details"
-                ><h5 style="font-size: large; color: #474747">
-                  Halkawt Market — Choman, Erbil | July 2021
-                </h5></span
-              >
+              <p class="job-details">
+                Halkawt Market — Choman, Erbil | July 2021
+              </p>
               <ul>
                 <li>
                   Processed customer transactions accurately and efficiently.
                 </li>
-                <li>
-                  Maintained a clean, organized, and professional workspace.
-                </li>
-                <li>Delivered friendly and reliable customer service.</li>
+                <li>Maintained a clean and organized workspace.</li>
+                <li>Provided friendly and reliable customer service.</li>
               </ul>
-            </div>
+            </article>
 
-            <div class="job">
+            <article class="job">
               <h3>PVC &amp; Aluminum Technician</h3>
-              <span class="job-details"
-                ><h5 style="font-size: large; color: #474747">
-                  Nawprdan Workshop — Choman, Erbil | April–December 2020,
-                  July–September 2024
-                </h5>
-              </span>
+              <p class="job-details">
+                Nawprdan Workshop — Choman, Erbil | April–December 2020,
+                July–September 2024
+              </p>
               <ul>
                 <li>
-                  Measured, cut, and assembled PVC and aluminum components for
-                  doors and windows.
+                  Measured, cut, and assembled PVC and aluminum components.
                 </li>
                 <li>
-                  Operated tools and machinery safely while meeting project
-                  deadlines.
+                  Operated tools and machinery while meeting project deadlines.
                 </li>
                 <li>
-                  Collaborated with team members to ensure high-quality
-                  installations and customer satisfaction.
+                  Worked closely with team members to ensure installation
+                  quality.
                 </li>
               </ul>
-            </div>
+            </article>
 
-            <div class="job">
+            <article class="job">
               <h3>Rider Support Agent</h3>
-              <span class="job-details"
-                ><h5 style="font-size: large; color: #474747">
-                  Lezzoo — Erbil | July–September 2025
-                </h5></span
-              >
+              <p class="job-details">Lezzoo — Erbil | July–September 2025</p>
               <ul>
-                <li>
-                  Provided technical and operational support to riders via calls
-                  and ticketing systems.
-                </li>
-                <li>
-                  Resolved issues related to the Lezzoo application and delivery
-                  services.
-                </li>
-                <li>
-                  Maintained accurate records of rider interactions and
-                  resolutions.
-                </li>
+                <li>Provided technical and operational support to riders.</li>
+                <li>Resolved application and delivery-related issues.</li>
+                <li>Maintained accurate records of support interactions.</li>
               </ul>
-            </div>
+            </article>
 
-            <div class="job">
+            <article class="job">
               <h3>Operations Management Agent</h3>
-              <span class="job-details"
-                ><h5 style="font-size: large; color: #474747">
-                  Lezzoo — Erbil | October 2025 – Present
-                </h5></span
-              >
+              <p class="job-details">Lezzoo — Erbil | October 2025 – Present</p>
               <ul>
                 <li>
-                  Managed daily operations and ensured timely order fulfillment.
+                  Managed daily operational workflows and order fulfillment.
                 </li>
                 <li>
-                  Provided real-time support for customers, drivers, and
+                  Provided real-time support to customers, drivers, and
                   merchants.
                 </li>
                 <li>
-                  Coordinated with internal teams to resolve operational
-                  challenges efficiently.
+                  Collaborated with internal teams to resolve operational
+                  challenges.
                 </li>
               </ul>
-            </div>
+            </article>
           </section>
 
-          <!-- Skills Section -->
-          <section id="Skills">
+          <!-- Skills -->
+          <section id="skills">
             <header>
-              <h2 class="icon solid fa-lightbulb"> - Skills</h2>
+              <h2 class="icon solid fa-lightbulb">  Skills</h2>
             </header>
             <ul class="skills-list">
-              <li>Programming: C++, Python, JavaScript</li>
-              <li>Web Technologies: HTML, CSS</li>
-              <li>Version Control: Git</li>
+              <li><strong>Programming:</strong> C++, Python, JavaScript</li>
+              <li><strong>Web:</strong> HTML, CSS</li>
+              <li><strong>Tools:</strong> Git, GitHub</li>
               <li>Problem Solving &amp; Critical Thinking</li>
               <li>Team Collaboration &amp; Communication</li>
             </ul>
+          </section>
+          <section id="languages">
+            <header>
+              <h2 class="icon solid fa-language">  Languages</h2>
+            </header>
+            <div class="lang-cards">
+              <div class="card">
+                <h3>Kurdish</h3>
+                <p style="text-align: left">
+                  Native speaker with excellent comprehension.
+                </p>
+              </div>
+              <div class="card">
+                <h3>English</h3>
+                <p style="text-align: left">
+                  Fluent in reading, writing, and speaking.
+                </p>
+              </div>
+              <div class="card">
+                <h3>Arabic</h3>
+                <p style="text-align: left">
+                  Intermediate proficiency in communication.
+                </p>
+              </div>
+            </div>
           </section>
         </article>
 
@@ -181,7 +196,7 @@
           <section class="contact-details">
             <div class="row">
               <div class="col-6 col-12-medium">
-                <h4>Email</h4>
+                <h3>Email</h3>
                 <p>
                   <a
                     href="mailto:ehsan911zaid@gmail.com?subject=Website%20Contact"
@@ -192,7 +207,7 @@
               </div>
 
               <div class="col-6 col-12-medium">
-                <h4>Phone</h4>
+                <h3>Phone</h3>
                 <p>
                   <a href="tel:+9647517271225">+964 751 727 1225</a><br />
                   <a href="tel:+9647817831225">+964 781 783 1225</a>
@@ -200,21 +215,22 @@
               </div>
 
               <div class="col-12">
-                <p class="contact-note">
-                  You may also reach out to me through my LinkedIn profile for
+                <p>
+                  You may also reach out through LinkedIn or GitHub for
                   professional inquiries.
                 </p>
               </div>
             </div>
           </section>
         </article>
-      </div>
+      </main>
+
       <!-- Footer -->
-      <div id="footer">
+      <footer id="footer">
         <ul class="copyright">
-          <li style="color: rgb(235, 235, 235)">&copy; 2025 Ehsan Zaid.</li>
+          <li>&copy; 2025 Ehsan Zaid.</li>
         </ul>
-      </div>
+      </footer>
     </div>
 
     <!-- Scripts -->
