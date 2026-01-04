@@ -100,7 +100,7 @@ input, select, textarea {
               flex-wrap: wrap; /* allow wrapping on smaller screens */
             }
             .card {
-              flex: 1 1 100px; /* min width 200px, grow evenly */
+              flex: 1 1 50px; /* min width 200px, grow evenly */
               border-radius: 22px; /* proportional */
               padding: 20px;
               text-align: center;
@@ -112,29 +112,35 @@ input, select, textarea {
               transform: translateY(-10px);
               box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
             }
+.contact-group {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .contact-card {
-  display: block;
-  border-radius: 22px;
-  padding: 20px;
-  text-align: left;
+  display: inline-block;     /* 🔥 key change */
+  border-radius: 18px;
+  padding: 8px 14px;
   background: #f5f5f5;
   text-decoration: none;
   color: inherit;
+  width: fit-content;        /* 🔥 dynamic width */
   transition: transform 0.3s, box-shadow 0.3s;
+  margin-top: 1%;
+  margin-left: 3%;
 }
 
 .contact-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-6px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
-.contact-card h3 {
-  margin-bottom: 10px;
 }
 
 .contact-card p {
   margin: 0;
+  white-space: nowrap;       /* keeps email/phone on one line */
 }
+
 
 
 
